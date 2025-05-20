@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2f7d32;
+}
+
+.farm-highlight {
+  color: #000;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.navbar-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-links a:hover {
+  color: #4caf50;
+}
+
+.navbar-auth {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.auth-btn {
+  padding: 6px 12px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.auth-btn:hover {
+  background-color: #388e3c;
+}
