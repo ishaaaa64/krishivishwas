@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <span role="img" aria-label="farm">🌾</span> Green
-        <span className="farm-highlight">Farm</span>
+        <span role="img" aria-label="farm">🌾</span> Krishi
+        <span className="farm-highlight">Vishwas</span>
       </div>
 
       <div className="navbar-links">
