@@ -154,22 +154,23 @@
   flex-grow: 1;
 }
 
-/* Responsive tweaks */
+/* Remove the responsive tweaks to make style consistent across devices */
+/* (This disables media query overrides) */
 @media (max-width: 768px) {
   .hero-text h1 {
-    font-size: 40px;
+    font-size: 60px; /* keep original size */
   }
 
   .highlight-script {
-    font-size: 48px;
+    font-size: 72px; /* keep original size */
   }
 
   .explore-btn {
-    font-size: 16px;
-    padding: 10px 25px;
+    font-size: 18px; /* keep original size */
+    padding: 12px 30px; /* keep original size */
   }
 
   .explore-cards-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* keep original grid */
   }
 }
