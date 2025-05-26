@@ -1,13 +1,16 @@
 // src/components/Navbar.jsx
 
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <span role="img" aria-label="farm">🌾</span> Krishi
+        <span role="img" aria-label="farm">
+          🌾
+        </span>{" "}
+        Krishi
         <span className="farm-highlight">Vishwas</span>
       </div>
 
@@ -22,8 +25,12 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-auth">
-        <Link to="/login" className="auth-btn">Login</Link>
-        <Link to="/signin" className="auth-btn">Sign In</Link>
+        <Link to="/login" className="auth-btn">
+          Login
+        </Link>
+        <Link to="/signin" className="auth-btn">
+          Sign In
+        </Link>
       </div>
     </nav>
   );
